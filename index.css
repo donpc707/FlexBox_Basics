@@ -66,6 +66,18 @@ body {
   color: #ffffff;
 }
 
+.logo {
+  width: auto;
+  height: 100px;
+  object-fit: contain;    /* ensures logos don’t stretch weirdly */
+  background: white;     /* helps transparent PNG logos stand out */
+  padding: 5px;
+  border-radius: 8px;
+  display: block;         /* ensures logos stack above text */
+  margin: 0 auto 0.5rem;  /* center horizontally + spacing */
+  
+}
+
 .heading {
   font-size: 1.25rem;
   font-weight: 700;
@@ -73,6 +85,7 @@ body {
   text-align: center;
   color: hsl(225, 22%, 96%);
   margin-bottom: 0.5rem;
+  
 }
 
 .para {
@@ -90,3 +103,5 @@ body {
 .para:hover {
   color: #f0db4f;           /* adds an accent color (example: yellowish) */
 }
+
+
