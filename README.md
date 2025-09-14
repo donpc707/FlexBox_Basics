@@ -15,9 +15,16 @@ Strengthening my front-end foundation as part of my full-stack learning path.
 
 
 
-Features
-
+Features:
 Simple and beginner-friendly HTML & CSS structure.
 Multiple card-based layouts (e.g., bank showcase).
 Responsive designs that adapt to different screen sizes.
 Easy-to-read code for learners and collaborators.
+
+
+Contributions:
+This repo is primarily for my learning, but I welcome feedback, suggestions, or improvements. Feel free to fork, clone, and share your ideas.
+
+
+Motivation:
+“Continuous learning is the key to mastery. Each commit here reflects a step forward in my growth as a developer.”
