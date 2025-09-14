@@ -70,12 +70,23 @@ body {
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 140%;
+  text-align: center;
   color: hsl(225, 22%, 96%);
   margin-bottom: 0.5rem;
 }
 
 .para {
   font-size: 0.95rem;
-  line-height: 1.4;
-  color:whitesmoke; 
+  line-height: 1.6;         /* more breathing space between lines */
+  color: whitesmoke;        /* keeps text light on dark bg */
+  margin: 0.5rem 0;         /* spacing above and below each paragraph */
+  letter-spacing: 0.3px;    /* subtle spacing between characters */
+  text-align: center;      /* makes text edges clean (optional) */
+  font-weight: 300;         /* light weight for softer look */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+  transition: color 0.3s ease; /* smooth color change on hover */
+}
+
+.para:hover {
+  color: #f0db4f;           /* adds an accent color (example: yellowish) */
 }
